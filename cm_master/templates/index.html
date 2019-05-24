@@ -1,0 +1,16 @@
+<html>
+<head>
+    {% load static %}
+    <title>Video Streaming Demonstration</title>
+</head>
+<body>
+<h1>Video Streaming Demonstration</h1>
+<form method="POST">
+    {% csrf_token %}
+    <button type="Submit">test</button>
+</form>
+
+<img src="{% static 'test.jpeg' %}">
+
+</body>
+</html>
